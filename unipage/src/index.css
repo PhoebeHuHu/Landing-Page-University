@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 body {
@@ -18,7 +18,7 @@ a {
 }
 
 .container {
-  padding: 2vh 4vw;
+  padding: 1vh 4vw;
 }
 
 .btn {
@@ -27,5 +27,15 @@ a {
   padding: 10px 25px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
+  outline: none;
   border-radius: 30px;
-}/*# sourceMappingURL=index.css.map */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
