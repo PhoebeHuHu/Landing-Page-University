@@ -2,7 +2,7 @@ import React from 'react'
 
 const Temp = () => {
     return (
-        <div className='text-center text-[72px] font-bold'>23℃</div>
+        <p className='text-center text-[72px] font-bold mb-[4px] mt-[30px] leading-[0.8]'>23°</p>
     )
 }
 

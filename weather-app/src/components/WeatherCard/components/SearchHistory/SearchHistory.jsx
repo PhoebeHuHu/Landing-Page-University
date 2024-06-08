@@ -20,9 +20,8 @@ const SearchHistory = () => {
     return (
         <ul className='flex justify-between text-center'>
             {data.map((item, index) => (
-                <li key={index} className='bg-contain bg-no-repeat w-[160px] h-[120px] text-white ' style={{ backgroundImage: `url(${item.bg})` }}>
-                    {/* <img src={item.bg} alt="" /> */}
-
+                <li key={index} className='relative bg-contain bg-no-repeat w-[150px] h-[115px] text-white' >
+                    <img src={item.bg} className="absolute w-100%" alt="" />
                     <img src={item.icon} className="size-14 m-auto drop-shadow-md" alt="" />
                     <p className='font-bold drop-shadow-md'>{item.city}</p>
                     <p className='drop-shadow-md'>{item.temp}</p>

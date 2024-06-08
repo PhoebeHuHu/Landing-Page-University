@@ -2,7 +2,7 @@ import React from 'react'
 
 const TempRange = () => {
     return (
-        <div className='text-center'>20~23℃</div>
+        <div className='text-center'>20~23°</div>
     )
 }
 

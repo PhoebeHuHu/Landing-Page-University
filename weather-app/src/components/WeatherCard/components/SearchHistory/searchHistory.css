@@ -1,0 +1,3 @@
+li {
+    backgroundImage: `url(${item.bg})`
+}
