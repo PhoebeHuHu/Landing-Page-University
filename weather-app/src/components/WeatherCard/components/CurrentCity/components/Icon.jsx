@@ -1,8 +1,9 @@
 import React from 'react'
-import icon from '../../../../../assets/weather_icon/Cloudy.png'
+import getIcon from '../../../../../apis/getIcon'
+import currentData from '../../../../../mocks/current.json'
 const Icon = () => {
     return (
-        <img src={icon} alt="" className='m-auto' />
+        <img src={getIcon(currentData.current.condition.text)} alt="" className='m-auto' />
     )
 }
 
