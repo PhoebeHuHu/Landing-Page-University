@@ -4,6 +4,8 @@ import Hero from './components/hero/Hero'
 import Programs from './components/programs/Programs'
 import Title from './components/common/title/Title'
 import About from './components/about/About'
+import Campus from './components/campus/Campus'
+import Testimonials from './components/testimonials/Testimonials'
 
 const App = () => {
   return (
@@ -15,6 +17,9 @@ const App = () => {
         <Programs />
         <About />
         <Title subTitle='gallery' title='campus photos' />
+        <Campus />
+        <Title subTitle='testimonials' title='what student says' />
+        <Testimonials />
       </div>
 
     </>
