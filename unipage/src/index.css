@@ -41,6 +41,11 @@ a {
   margin-left: 10px;
 }
 
+.dark-btn {
+  background-color: #000F38;
+  color: #fff
+}
+
 /* ----- media query ------------ */
 @media (max-width: 1200px) {
   .container {
